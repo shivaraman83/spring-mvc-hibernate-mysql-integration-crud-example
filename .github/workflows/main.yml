@@ -43,7 +43,7 @@ jobs:
         
     - name: Xray scan
       run: |
-        jf bs --fail=false
+        jf bs --fail=false --format sarif
         
     - name: Promote and Tag
       env:
