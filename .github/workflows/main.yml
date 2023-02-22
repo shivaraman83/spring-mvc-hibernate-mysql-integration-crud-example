@@ -4,7 +4,6 @@
 name: sampleapi-mvn-api-pr-build
 
 on: [workflow_dispatch]
-
 jobs:
   build:
     runs-on: ubuntu-latest
